@@ -1,0 +1,2 @@
+# Briareos
+Algorithmic Trading System
