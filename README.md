@@ -1,7 +1,7 @@
 # Briareos
 Algorithmic Trading System
 
-Stored here are several scripts that constitute a complete Algorithmic Trading system, composed of several different modules capable of running in parallel.
+Stored here are several scripts that constitute a complete Algorithmic Trading system, composed of several different modules capable of running in parallel. The system operates on the cryptocurrencies market, using the Binance exchange.
 
 This was my first coding project and I learned python while doing it, so don't expect great coding skills... at all.
 
@@ -21,3 +21,8 @@ The system is very autonomous, requiring only the user to monitor problems with 
 The project took 3 years and suffered from performance problems (profitability), resulting in its abandonment. The cause of the problems is due to a naive approach to many stages of development and the use of mathematical tools not completly understood by me at the time. Overfitting and the use of more data than required plagued later stages of development. The constant pursue of remarkable results in backtesting not matched by the actual performance of the algorithm.
 
 Still, presented here as a complete package that can be modified or scraped for parts as some are indeed of interest.
+
+The folder ProjectOracle&ProjectTweety contains two subproject, as the name indicates. 
+Project Oracle is a fully autonomous report generator, it generates every week a report on the curent market condition of the cryptocurrencies market. It then autonomously sends this reports by email to a list of subscribers. Costumers subscribed on Stripe to receive the report and paid a monthly fee, the list of subcribers could then be obtained through the Stripe API.
+Project Tweety is a Twitter bot that posts regularly information like charts and tables about the current market conditions and trends.
+A README.txt file is present in the folder with more information.
