@@ -5,7 +5,7 @@ Both project here rely on the Briareos Database and so are considered subproject
 Project Oracle 
 
 This is an automatically generated Analysis report of the Cryptocurrencies Market, generated every week and sent to subscribers by email. Programmed in Python. Fully autonomous report generation and email. An example of the report can be seen here (file HCdept_WeeklyMarketReport_210909.pdf).
-The file Report.py produces the report using the package fpdf. The subscribers (emails and names) where taken from a list of friends that would get it for free and a list of subscribers from Stripe, a service that allows you to charge a montly fee to people for a product, using Stripe's API.
+The file Report.py produces the report using the package fpdf. The subscribers (emails and names) where taken from a list of friends that would get it for free and a list of subscribers from Stripe, a service that allows you to charge a monthly fee to people for a product, using Stripe's API.
 
 
 Project Tweety
